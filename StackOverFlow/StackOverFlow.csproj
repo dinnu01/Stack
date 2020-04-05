@@ -134,6 +134,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StackOverFlowProject.DomainModels\StackOverFlowProject.DomainModels.csproj">
+      <Project>{99d5cc48-4587-4604-a6d3-93b00bb7f16b}</Project>
+      <Name>StackOverFlowProject.DomainModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StackOverFlowProject.ViewModels\StackOverFlowProject.ViewModels.csproj">
+      <Project>{db6cf599-e4ca-4251-9596-11bd25118994}</Project>
+      <Name>StackOverFlowProject.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
